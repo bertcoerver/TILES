@@ -1,0 +1,16 @@
+{
+"name": "/Users/hmcoerver/Local/field_delineation/TILES/NoCompress_NoData",
+"description": "/Users/hmcoerver/Local/field_delineation/TILES/NoCompress_NoData",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "15",
+"center": "39.644165,8.499537,15",
+"bounds": "8.450808,8.310059,44.111055,36.657036",
+"antimeridian_adjusted_bounds": "8.450808,8.310059,44.111055,36.657036",
+"type": "overlay",
+"strategies": "[{\"tiny_polygons\":27716},{\"tiny_polygons\":27716},{\"tiny_polygons\":27716},{\"tiny_polygons\":27716},{\"tiny_polygons\":27716},{\"tiny_polygons\":27341},{\"tiny_polygons\":11212},{\"tiny_polygons\":99},{\"tiny_polygons\":53},{\"tiny_polygons\":45},{\"tiny_polygons\":24},{\"tiny_polygons\":21},{\"tiny_polygons\":22},{\"tiny_polygons\":17},{\"tiny_polygons\":18},{\"tiny_polygons\":19}]",
+"format": "pbf",
+"generator": "tippecanoe v2.40.0",
+"generator_options": "tippecanoe '--maximum-zoom=15' -e /Users/hmcoerver/Local/field_delineation/TILES/NoCompress_NoData --extend-zooms-if-still-dropping --no-tile-compression '--use-attribute-for-id=field' '--layer=FIELDS' /Users/hmcoerver/Local/field_delineation/TO_BE_TILED.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"FIELDS\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":15,\"fields\":{\"field\":\"Number\",\"region\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"FIELDS\",\"count\":27716,\"geometry\":\"Polygon\",\"attributeCount\":2,\"attributes\":[{\"attribute\":\"field\",\"count\":1,\"type\":\"number\",\"values\":[0],\"min\":0,\"max\":0},{\"attribute\":\"region\",\"count\":6,\"type\":\"string\",\"values\":[\"AWA\",\"BKA\",\"ERB\",\"GEZ\",\"JEN\",\"JVA\"]}]}]}}"
+}
